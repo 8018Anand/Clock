@@ -6,8 +6,8 @@ It returns a non-zero value, indicating that a key has been pressed. If getch( )
 
 This programm contains 6 functions:  
 1-->delay(int ms): It has single parameter called ms(milliseconds), it is void return type. it is used for the delay for milliseconds meance as we know the system counts far more faster than the millisecond counting in  
-    our clocks. So to make achive that delay we are using this function.  
-    NOTE: The parameter we enter in this function is depends up on the system speed any may varry for different devices.
+    our clocks. So to achive the delay which is narly same as milliseconds we are using this function.  
+    NOTE: The parameter we enter in this function is depends up on the system speed any may vary for different devices.
 2-->content(): This function is a type of no parameters and return type. This function is used to display the contents on to the screen.  
 3-->print(): This function is a type of no parameters and return type. This function is used to display the running time.  
 4-->usecase(): This function is a type of no parameters and return type. This uses getch() and switch case to retrive the buffer and to change the functinality as we entered the corresopnding input ex:start, stop,...etc.  
